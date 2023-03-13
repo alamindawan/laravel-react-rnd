@@ -87537,7 +87537,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var _services_TaskService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../services/TaskService */ "./resources/js/services/TaskService.js");
+/* harmony import */ var _services_TaskService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../services/TaskService */ "./resources/js/services/TaskService.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 
@@ -87601,7 +87601,7 @@ var TaskList = /*#__PURE__*/function (_React$Component) {
                 }
 
                 _context.next = 3;
-                return Object(_services_TaskService__WEBPACK_IMPORTED_MODULE_4__["updateTask"])(item.id, item);
+                return Object(_services_TaskService__WEBPACK_IMPORTED_MODULE_3__["updateTask"])(item.id, item);
 
               case 3:
                 _this.props.onEditTask();
@@ -87627,7 +87627,7 @@ var TaskList = /*#__PURE__*/function (_React$Component) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 _context2.next = 2;
-                return Object(_services_TaskService__WEBPACK_IMPORTED_MODULE_4__["deleteTask"])(id);
+                return Object(_services_TaskService__WEBPACK_IMPORTED_MODULE_3__["deleteTask"])(id);
 
               case 2:
                 response = _context2.sent;
@@ -87984,8 +87984,8 @@ var deleteTask = /*#__PURE__*/function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! G:\server\htdocs\react_laravel\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! G:\server\htdocs\react_laravel\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! G:\server\htdocs\laravel-react-rnd\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! G:\server\htdocs\laravel-react-rnd\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
